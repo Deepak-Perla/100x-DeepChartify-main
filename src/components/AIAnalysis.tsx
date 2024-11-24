@@ -103,14 +103,13 @@ const AIAnalysis: React.FC<AIAnalysisProps> = ({ data, onAnalysisComplete }) => 
 
   const extractChartTypes = (text: string): string[] => {
     const chartKeywords = {
-      'bar': 'bar',
-      'line': 'line',
-      'pie': 'pie',
-      'scatter': 'scatter',
-      'radar': 'radar',
-      'box plot': 'boxplot',
-      'histogram': 'bar',
-      'heat map': 'heatmap'
+      bar: 'Bar Graph',
+      line: 'Line Chart',
+      pie: 'Pie Chart',
+      scatter: 'Scatter Plot',
+      radar: 'Radar Chart',
+      boxplot: 'Box Plot',
+      heatmap: 'Heat Map'
     };
 
     const foundTypes = Object.entries(chartKeywords)
