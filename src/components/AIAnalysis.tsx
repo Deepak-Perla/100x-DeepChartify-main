@@ -140,7 +140,7 @@ const AIAnalysis: React.FC<AIAnalysisProps> = ({ data, onAnalysisComplete }) => 
             type="text"
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
-            placeholder="Enter your analysis request (e.g., 'Generate sales reports for Q3 with charts')"
+            placeholder="Enter your analysis request (e.g., 'Generate summary')"
             className="w-full p-4 pr-12 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             onKeyPress={(e) => {
               if (e.key === 'Enter') {
