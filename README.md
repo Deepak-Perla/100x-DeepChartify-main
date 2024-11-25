@@ -142,8 +142,6 @@ To build an intelligent report-generating agent capable of:
 
 With **DeepChartify**, you can transform raw data into actionable insights with minimal effort, making it the ultimate tool for intelligent report generation.
 
-This revised documentation aligns with the hackathon context and problem statement while showcasing the capabilities and significance of "DeepChartify." Let me know if you'd like further refinements!
-
 -----
 Fine crafted by AIluminati 
 
